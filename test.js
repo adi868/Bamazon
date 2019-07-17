@@ -82,21 +82,22 @@ function runProgram() {
                     }
                     return false;
                 }
-
             },
             {
                 type: "confirm",
-                message: "Is this correct?",
+                message: (chalk.green("Is this correct?")),
                 name: "confirmation",
                 default: true
             }
-        ]).then(function (userResponse) {
+        ]).then(function(userResponse) {
+
             connection.query("SELECT * FROM products WHERE ?", {
                 item_id: userResponse.itemId
             }, function (error, response) {
                 console.log("\nYou have chosen to buy " + userResponse.units + " " + response[0].product_name + "(s).");
                 if (userResponse.units > response[0].stock_quantity) {
-                    console.log("\n" + "Oh no. We do not have enough in stock! We are sorry.")
+                    console.log("\n" + (chalk.red("Oh no. We do not have enough in stock! We are sorry.")) + "\n")
+                    optionMenu();
                 } else {
                     console.log("\nProcessing your order....\n");
                     var totalCost = userResponse.units * response[0].price;
