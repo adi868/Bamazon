@@ -31,7 +31,7 @@ function inventoryItem() {
             table.push([
                 response[i].item_id,
                 response[i].product_name,
-                response[i].price
+                '$'+ response[i].price
             ])
         }
         console.log(table.toString());
