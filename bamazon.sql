@@ -12,7 +12,7 @@ CREATE TABLE products (
 item_id INTEGER(10) NOT NULL,
 product_name VARCHAR(50) NOT NULL,
 department_name VARCHAR(50) NOT NULL,
-price DECIMAL(10,2),
+price DECIMAL(10,2) NOT NULL,
 stock_quantity INTEGER(10) NOT NULL
 );
 
@@ -27,25 +27,25 @@ INSERT INTO products (item_id, product_name, department_name, price, stock_quant
 VALUES (5002, "Orange", "Produce", 1.35, 10);
 
 INSERT INTO products (item_id, product_name, department_name, price, stock_quantity)
-VALUES (5003, "Pineapple", "Produce", 2.20, 5);
+VALUES (5003, "Pineapple", "Produce", 2.29, 5);
 
 INSERT INTO products (item_id, product_name, department_name, price, stock_quantity)
-VALUES (5004, "Watermelon", "Produce", 3.30, 2);
+VALUES (5004, "Watermelon", "Produce", 3.39, 2);
 
 INSERT INTO products (item_id, product_name, department_name, price, stock_quantity)
-VALUES (5005, "Cherry", "Produce", 1.10, 25);
+VALUES (5005, "Cherry", "Produce", 1.19, 25);
 
 INSERT INTO products (item_id, product_name, department_name, price, stock_quantity)
 VALUES (5006, "Magical Gum-Gum Fruit", "Produce", 999.99, 1);
 
 INSERT INTO products (item_id, product_name, department_name, price, stock_quantity)
-VALUES (5007, "Blueberry", "Produce", 1.50, 12);
+VALUES (5007, "Blueberry", "Produce", 1.59, 12);
 
 INSERT INTO products (item_id, product_name, department_name, price, stock_quantity)
-VALUES (5008, "Lemon", "Produce", 1.80, 10);
+VALUES (5008, "Lemon", "Produce", 1.89, 10);
 
 INSERT INTO products (item_id, product_name, department_name, price, stock_quantity)
-VALUES (5009, "Kiwi", "Produce", 2.50, 5);
+VALUES (5009, "Kiwi", "Produce", 2.59, 5);
 
 SELECT * FROM products;
 
