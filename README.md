@@ -8,7 +8,7 @@ To run this program, a couple steps of setup are required. First, make sure you 
 
 Next, run  `bamazon` in your terminal. Type in `node bamazonCustomer.js`. This will run the Bamazon application. From there, Bamazon will prompt the user through a series of inquirer prompts. If you choose to `Make a purchase`, Bamazon will search the database for the current inventory and display all the available items in stock. 
 
-Navigate through the menu options to select your requested action from the list. Bamazon will then search the database for your requested item ID, match your chosen selection, and check whether the request can be completed. If the item is out of stock, Bamazon will notify you it cannot complete the order. 
+Navigate through the menu options to input the order information, making sure to include the item ID, as well as the number of items you'd like to buy. From there, Bamazon will search the database for the item ID, match your chosen selection, and check whether the request can be completed. If the item is out of stock, Bamazon will notify you it cannot complete the order. 
 
 ![Bamazon-1Demo](https://media.giphy.com/media/lRdhbAMTVuqSmcYLT4/giphy.gif)
 
