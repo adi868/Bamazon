@@ -6,7 +6,7 @@ Welcome to Bamazon! Bamazon is a command line interface application that can be 
 ## How does it work?
 To run this program, a couple steps of setup are required. First, make sure you have the appropriate `npm` packages installed on your computer.
 
-Next, run  `bamazon` in your terminal. Type in `node bamazonCustomer.js`. This will run the Bamazon application. From there, Bamazon will prompt the user through a series of inquirer prompts. Select `Make a purchase`. Bamazon will search the database for the current inventory and display all the available items in stock. 
+Next, run  `bamazon` in your terminal. Type in `node bamazonCustomer.js`. This will run the Bamazon application. From there, Bamazon will prompt the user through a series of inquirer prompts. If you choose to `Make a purchase`, Bamazon will search the database for the current inventory and display all the available items in stock. 
 
 Navigate through the menu options to select your requested action from the list. Bamazon will then search the database for your requested item ID, match your chosen selection, and check whether the request can be completed. If the item is out of stock, Bamazon will notify you it cannot complete the order. 
 
