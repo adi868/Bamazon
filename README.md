@@ -10,7 +10,7 @@ Next, run  `bamazon` in your terminal. Type in `node bamazonCustomer.js`. This w
 
 Navigate through the menu options to select your requested action from the list. Bamazon will then search the database for your requested item ID, match your chosen selection, and check whether the request can be completed. If the item is out of stock, Bamazon will notify you it cannot complete the order. 
 
-![Bamazon-No-Demo](https://media.giphy.com/media/lRdhbAMTVuqSmcYLT4/source.mp4)
+![Bamazon-1Demo](https://media.giphy.com/media/lRdhbAMTVuqSmcYLT4/giphy.gif)
 
 However, if the number of items are in stock, Bamazon will complete your order, update the stock's inventory, and calculate the total cost of your transaction. 
 
