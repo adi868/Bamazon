@@ -18,6 +18,13 @@ However, if the number of items are in stock, Bamazon will complete your order, 
 
 And..there it is, folks. Try it out yourself, saavy shoppers!
 
+## Future Development: 
+Create manager option where manager can log in to:
+View Products for Sale
+View Low Inventory
+Add to Inventory
+Add New Product
+
 ### Technologies Used:
 * JavaScript
 * Node.js
