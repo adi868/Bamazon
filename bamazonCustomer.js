@@ -1,7 +1,7 @@
 var inquirer = require("inquirer");
-const chalk = require("chalk");
 var mySQL = require("mysql");
 var Table = require("cli-table3");
+const chalk = require("chalk");
 
 var connection = mySQL.createConnection({
     host: "127.0.0.1",
@@ -10,6 +10,7 @@ var connection = mySQL.createConnection({
     password: "password",
     database: "bamazon_db"
 });
+
 connection.connect(function (error) {
     if (error) throw error;
     console.log("Connected as ID:", connection.threadId + "\n");
@@ -89,7 +90,7 @@ function runProgram() {
                 name: "confirmation",
                 default: true
             }
-        ]).then(function(userResponse) {
+        ]).then(function (userResponse) {
 
             connection.query("SELECT * FROM products WHERE ?", {
                 item_id: userResponse.itemId
