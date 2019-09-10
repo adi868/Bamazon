@@ -1,7 +1,7 @@
 # Bamazon
 
 ## Overview 
-Welcome to Bamazon! Bamazon is a command line interface application that can be used to request and place real-time orders through a virtual storefront. Using the power of MySQL, Javascript, and Node.js, Bamazon will take in orders and deplete stock from the store's inventory.
+Welcome to Bamazon! Bamazon is a command line interface application that can be used to request and place real-time orders through a virtual storefront. Bamazon-CLI interacts with the Bamazon MySQL Database. It allows the users to view and purchase items from the inventory. Using the power of MySQL, Javascript, and Node.js, Bamazon will take in orders and deplete stock from the store's inventory.
 
 ## Installation
 Bamazon relies on Node.js to provide a command line interface to a MySQL database. Since Bamazon does not run on the browser, in order to run Bamazon a couple of steps of installation are required. They are as follows:
