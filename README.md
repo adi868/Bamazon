@@ -15,7 +15,7 @@ Bamazon relies on Node.js to provide a command line interface to a MySQL databas
     * cli-table3
     * chalk
 
-## How does it work?
+## How Does It Work?
 After you have made sure you have the appropriate downloads and `npm` packages installed on your computer, run  `bamazon` in your terminal. Type in `node bamazonCustomer.js`. This will run the Bamazon application. From there, Bamazon will prompt the user through a series of inquirer prompts. If you choose to `Make a purchase`, Bamazon will search the database for the current inventory and display all the available items in stock. 
 
 Navigate through the menu options to input the order information, making sure to include the item ID, as well as the number of items you'd like to buy. From there, Bamazon will search the database for the item ID, match your chosen selection, and check whether the request can be completed. If the item is out of stock, Bamazon will notify you it cannot complete the order. 
